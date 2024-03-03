@@ -10,11 +10,11 @@ export default async function App() {
   return (
     <>
       <Home />
-      {serverConfig?.isVercel && (
+{/*       {serverConfig?.isVercel && (
         <>
           <Analytics />
         </>
-      )}
+      )} */}
     </>
   );
 }
